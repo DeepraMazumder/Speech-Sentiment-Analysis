@@ -2,18 +2,6 @@
 
 This project aims to analyze and classify emotions from speech signals using various deep learning models. The datasets used in this project include Crema, Ravdess, Savee, and Tess. Data augmentation techniques such as noise introduction, pitch shifting, and stretching were applied to enhance the dataset. Features such as MFCCs, Energy and Entropy of Energy, Zero Crossing Rate, Mel-Spectrogram, and Spectral Features were extracted for analysis.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Datasets](#datasets)
-- [Data Augmentation](#data-augmentation)
-- [Feature Extraction](#feature-extraction)
-- [Models](#models)
-- [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-
 ## Introduction
 
 Speech sentiment analysis is the task of classifying emotions in spoken language. It has applications in various fields such as customer service, mental health monitoring, and human-computer interaction. This project leverages multiple datasets and a combination of data augmentation and feature extraction techniques to build and evaluate four machine learning models: ANN, CNN, LSTM, and CNN-LSTM.
